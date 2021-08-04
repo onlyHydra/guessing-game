@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LogInController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="textFieldUsername" layoutX="208.0" layoutY="85.0" />
+            <TextField fx:id="textFieldParola" layoutX="208.0" layoutY="187.0" />
+            <Button layoutX="261.0" layoutY="291.0" mnemonicParsing="false" onAction="#logIn" text="LOG IN" />
+            <Label layoutX="63.0" layoutY="90.0" text="Username:" />
+            <Label layoutX="63.0" layoutY="192.0" text="Parola:" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

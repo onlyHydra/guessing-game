@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="joc.hbm">
+    <class name="domain.Joc"
+           table="Jocuri">
+        <id name="id" column="id" type="integer">
+            <generator class="increment"/>
+        </id>
+        <property
+                type="integer"
+                name="idJoc"
+                column="idJoc"/>
+        <property
+                type="string"
+                name="username"
+                column="username"/>
+        <property
+                type="string"
+                name="cuvantPropus"
+                column="cuvantPropus"/>
+
+    </class>
+</hibernate-mapping>
